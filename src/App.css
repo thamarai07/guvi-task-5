@@ -89,7 +89,7 @@ nav {
   max-width: 992px;
   margin: auto;
   position: relative;
-  margin-top:130px;
+  margin-top: 130px;
 }
 
 .cart_container .cart {
@@ -299,22 +299,26 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 }
-.product_list .item button{
+.product_list .item button {
   background: rgb(255, 62, 62);
   padding: 4px;
   color: white;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s;
-  
 }
-.product_list .item button:hover{
+.product_list .item button:hover {
   box-shadow: 0px 5px 14px black;
 }
-
 
 @keyframes spin {
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cart_container .cart {
+    width: 100%;
   }
 }

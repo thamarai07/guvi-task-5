@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <>
       <div className="cart_container">
-        {Data == undefined ? (
+        {Data === undefined ? (
           <p className="loading">Loading</p>
         ) : (
           Data.map((item, index) => (

@@ -61,7 +61,7 @@ const Navbar = () => {
                 <>
                   <div className="item">
                     <h5>{prod.title}</h5>
-                    <img src={prod.image} />
+                    <img src={prod.image} alt={prod.title} />
                     <button
                       className=""
                       onClick={() => handleDelete(prod.title)}
